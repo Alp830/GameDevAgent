@@ -1,0 +1,12 @@
+Level 1: The First Leap
+
+Mechanics Introduced: Basic horizontal movement (left/right), single jump, landing.
+Design Elements:
+Starting Area: An absolutely enormous, perfectly flat, open space.
+Fundamental Jump Introduction: A single, knee-high, exceptionally wide platform requiring a single, minimal jump input. This is the sole required jump.
+Optional "High Road" (Visual & Small Obstacle): Running parallel, an elevated path accessible by ramp or single jump, including one very wide, shallow pit requiring a basic single jump.
+Reward: Successfully navigating the "High Road" provides a "Discovery Spark" which causes the player's next 3 jumps to have a subtle, encouraging visual effect (a small trail of stars), providing immediate, positive reinforcement for exploration.
+Challenges:
+Pressing the jump button once. Optionally, performing a second basic jump on the high road.
+Player Learning:
+Basic movement and jumping. Understanding that routes can diverge for simple aesthetic or minor obstacle variation, with immediate, subtle positive feedback for exploration.

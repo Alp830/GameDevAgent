@@ -1,0 +1,51 @@
+{
+  "level": 1,
+  "difficulty": 2.0,
+  "sections": [
+    {
+      "type": "start_zone",
+      "parameters": {
+        "width": 8
+      },
+      "intent": {
+        "safety": "high",
+        "flow": "smooth"
+      }
+    },
+    {
+      "type": "platform_sequence",
+      "parameters": {
+        "count": 6,
+        "gap": [1,2],
+        "height_variation": [0,1]
+      },
+      "intent": {
+        "challenge": "basic",
+        "flow": "smooth"
+      },
+      "requires": "single_jump"
+    },
+    {
+      "type": "optional_path",
+      "parameters": {
+        "height": 2
+      },
+      "intent": {
+        "risk_reward": "low",
+        "exploration": "encouraged"
+      },
+      "reward": {
+        "type": "coin",
+        "value": 1
+      },
+      "requires": "single_jump"
+    },
+    {
+      "type": "end_zone",
+      "parameters": {},
+      "intent": {
+        "safety": "high"
+      }
+    }
+  ]
+}

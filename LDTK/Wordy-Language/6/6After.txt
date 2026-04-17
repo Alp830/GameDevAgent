@@ -1,0 +1,28 @@
+{
+  "level": 3,
+  "difficulty": 4,
+  "sections": [
+    {
+      "type": "branch",
+      "paths": [
+        {
+          "difficulty": "medium",
+          "features": [
+            "barely_moving_platform",
+            "timed_jump"
+          ],
+          "reward": ["temporal_alignment"]
+        },
+        {
+          "difficulty": "easy",
+          "features": [
+            "manual_ground_path",
+            "wide_platforms",
+            "simple_obstacle"
+          ],
+          "reward": ["guiding_light"]
+        }
+      ]
+    }
+  ]
+}

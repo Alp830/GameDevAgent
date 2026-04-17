@@ -1,0 +1,14 @@
+Level 4: Precision Pathways
+
+Mechanics Utilized: Single jump, very, very slightly varied distances, slightly less wide platforms.
+Design Elements:
+Focus on Static Jumps: No moving platforms or double jumps.
+Parallel Paths with Distinct Precision Demands:
+Path A (Standard Precision): Platforms nearly identical to Level 1, with subtle, generous single jump distances.
+Reward: Standard progression, no extra reward.
+Path B (Elevated, Slightly Tighter Precision): An elevated path with platforms only 5-10% less wide, and jump distances that require fractionally more mindful execution.
+Reward: This path ends with a "Focus Potion" (a temporary effect that very subtly increases the player's visible landing zone highlight for the next 5 jumps, making precision landings easier to visualize).
+Challenges:
+Making tiny, almost subconscious, adjustments to single jump power and landing. Choosing to attempt slightly tighter precision for a temporary visual aid for landings.
+Player Learning:
+Improving very fine control over single jump distance and landing accuracy. Recognizing and choosing a path with a temporary gameplay assistance reward for precision.

@@ -1,0 +1,20 @@
+Level 7: The Master Ascent
+
+Mechanics Utilized: All learned mechanics, combined into two very distinct, yet still extremely forgiving paths, leading to a common goal.
+Design Elements:
+Initial Familiar Section: Starts with an exceptionally gentle sequence using single jumps and one extremely slow moving platform.
+Major Divergence - Two Fundamentally Different Paths:
+Path A (Flow & Timing Challenge / Ultimate Reward): Focuses on continuous movement and subtle timing. Longer sequence of slightly less wide platforms (like Level 4), several barely faster moving platforms (like Level 6), and a short vertical ascent requiring two easy double jumps.
+Reward: Reaching the end of this path grants a "Flow State Activation" (a temporary effect that very subtly increases player speed and jump height by 2% for the next 30 seconds, providing a powerful, but still gentle, gameplay boost for potential subsequent levels or timed challenges) AND immediately provides a full health refill.
+Path B (Exploration & Minimal Interaction / Assistive Rewards): Longer and less about precision, more about finding the way. Navigating a very simple, wide vertical maze, with a hidden, very short detour behind a simple, pushable block (new interaction) that leads to bonus coins. Platforming mostly on wide stationary platforms or gentle ramps.
+Reward: This path is dotted with "Safe Passage Markers" that, when passed, temporarily outline the edges of all upcoming platforms in a bright, reassuring glow. It also has three clearly marked extra checkpoints, and a "secret" area with additional coins and a "Slow Motion Bubble" (a consumable item that, when activated, briefly slows down all moving platforms and environmental elements by 50% for 5 seconds).
+Generous Design: Both paths are designed with maximum landing zones and extremely forgiving timings.
+No Hazards: No sudden deaths or enemies.
+Climax: Both paths ultimately converge on a final, large platform with the level exit.
+Challenges:
+Applying a mix of learned mechanics based on chosen path, with very little pressure.
+Slightly longer sequences of actions compared to Level 6.
+Deciding which type of gameplay experience (flow/timing for temporary stat boost vs. exploration/safety for powerful assistive tools) they prefer.
+Player Learning:
+Consolidating understanding of all core mechanics.
+Understanding the concept of choice in paths and how it can fundamentally affect gameplay experience and rewards (temporary stat boosts vs. powerful assistive items).

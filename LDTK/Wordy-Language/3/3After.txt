@@ -1,0 +1,51 @@
+{
+  "level": 3,
+  "difficulty": 7.0,
+  "sections": [
+    {
+      "type": "branch",
+      "parameters": {
+        "paths": 2
+      },
+      "intent": {
+        "challenge": "high",
+        "flow": "variable"
+      },
+      "paths": [
+        {
+          "path_name": "A",
+          "difficulty": "hard",
+          "features": ["tight_platforms", "moving_platforms", "consecutive_double_jumps"],
+          "reward": ["speed_boost", "golden_relic"],
+          "requires": ["single_jump","double_jump"]
+        },
+        {
+          "path_name": "B",
+          "difficulty": "easy",
+          "features": ["wide_platforms", "safe_jumps"],
+          "reward": ["coins","life_shards"],
+          "requires": ["single_jump","double_jump"]
+        }
+      ]
+    },
+    {
+      "type": "dynamic_platform_section",
+      "parameters": {
+        "count": 3,
+        "movement": ["horizontal","vertical"]
+      },
+      "intent": {
+        "challenge": "high",
+        "timing_required": true
+      },
+      "requires": ["single_jump","double_jump"]
+    },
+    {
+      "type": "end_zone",
+      "parameters": {},
+      "intent": {
+        "safety": "medium"
+      }
+    }
+  ]
+}

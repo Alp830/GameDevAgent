@@ -1,0 +1,31 @@
+{
+  "level": 6,
+  "difficulty": 5,
+  "sections": [
+    {
+      "type": "branch",
+      "paths": [
+        {
+          "difficulty": "medium",
+          "features": [
+            "ground_level_sequence",
+            "single_jump",
+            "double_jump",
+            "barely_faster_moving_platform"
+          ],
+          "reward": []
+        },
+        {
+          "difficulty": "medium",
+          "features": [
+            "elevated_timing_challenge",
+            "single_jump",
+            "double_jump",
+            "slightly_smaller_moving_platform"
+          ],
+          "reward": ["temporal_echo"]
+        }
+      ]
+    }
+  ]
+}

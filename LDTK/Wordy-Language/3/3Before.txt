@@ -1,0 +1,26 @@
+Level 3: Ascent of Agility
+
+High-Level Mechanic: Combining all learned mechanics in complex scenarios with player choice.
+Detailed Mechanics Utilized: Basic movement, single jump, double jump.
+Design Elements:
+Initial Convergence: A short introductory section that then leads to a clear choice between two distinct paths.
+Path A (Skill Challenge - High Reward):
+Description: A more challenging route involving tighter platforming, faster-moving platforms, and potentially a section requiring consecutive double jumps over hazards.
+Reward: Leads to a temporary "Speed Boost" power-up that significantly increases player speed for 10 seconds, helping them clear a subsequent difficult gap or bypass a slow-moving obstacle, AND a unique "Golden Relic" collectible (unlocks concept art/lore).
+Path B (Safer Traverse - Assist Options):
+Description: A longer, more straightforward route with wider platforms and slower moving elements. It might include a few simple enemies (if applicable to the game, non-lethal) or environmental puzzles that are less skill-intensive than Path A.
+Reward: Offers a consistent stream of standard collectibles, more frequent checkpoints, and strategically placed "Life Shards" (restores a small amount of health).
+Mid-Level Divergence/Reconvergence: The two paths diverge significantly for a good portion of the level, offering distinct experiences, before either merging back together for the final climax or leading to slightly different concluding sections of the level.
+Dynamic Platforms: Introduction of slow-moving platforms (horizontal or vertical) that require timing jumps and double jumps to land on and then jump off.
+Obstacles (Optional): Simple, non-lethal environmental hazards (e.g., spikes that cause a small amount of damage or knockback) to add an element of risk and require more careful navigation, without being overly punishing for a learning level.
+Climax: A final challenging sequence that tests all learned skills before reaching the level's exit, which might be slightly different depending on the path taken.
+Challenges:
+Executing precise jumps and double jumps under pressure (e.g., moving platforms).
+Combining all learned mechanics fluidly.
+Navigating more complex environmental layouts.
+Strategic decision-making at path forks, weighing challenge against reward/assist.
+Player Learning:
+Fluid and confident application of all core movement mechanics.
+Strategic thinking for traversing complex platforming sections.
+Understanding risk-reward of different paths and valuing different types of rewards/assists.
+Difficulty Score (Estimated): 7.0

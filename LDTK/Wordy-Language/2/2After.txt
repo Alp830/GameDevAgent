@@ -1,0 +1,62 @@
+{
+  "level": 2,
+  "difficulty": 4.5,
+  "sections": [
+    {
+      "type": "double_jump_tutorial",
+      "parameters": {
+        "width": 6
+      },
+      "intent": {
+        "challenge": "tutorial",
+        "flow": "smooth"
+      },
+      "requires": "double_jump"
+    },
+    {
+      "type": "gap_sequence",
+      "parameters": {
+        "count": 4,
+        "gap": [3,5],
+        "height_variation": [1,3]
+      },
+      "intent": {
+        "challenge": "medium",
+        "flow": "rhythmic"
+      },
+      "requires": "double_jump"
+    },
+    {
+      "type": "vertical_section",
+      "parameters": {
+        "height": [2,4]
+      },
+      "intent": {
+        "challenge": "medium"
+      },
+      "requires": "double_jump"
+    },
+    {
+      "type": "optional_branch",
+      "parameters": {
+        "path_length": 3
+      },
+      "intent": {
+        "challenge": "medium",
+        "risk_reward": "medium"
+      },
+      "reward": {
+        "type": "star_gem",
+        "value": 5
+      },
+      "requires": "double_jump"
+    },
+    {
+      "type": "end_zone",
+      "parameters": {},
+      "intent": {
+        "safety": "high"
+      }
+    }
+  ]
+}

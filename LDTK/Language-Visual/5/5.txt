@@ -1,0 +1,199 @@
+  {
+      "level": 3,
+      "difficulty": 7.5,
+      "sections": [
+        {
+          "type": "platform_sequence",
+          "target_layer": "IntGrid_layer",
+          "parameters": {
+            "count": 6,
+            "gap": [
+              1,
+              2
+            ],
+            "height_variation": [
+              0,
+              2
+            ],
+            "platform_width": [
+              1,
+              2
+            ],
+            "spacing_policy": "tight",
+            "length_tiles": 20,
+            "start_x_policy": "start_of_level",
+            "base_y": 0
+          },
+          "intent": {
+            "challenge": "precision_timing",
+            "flow": "variable",
+            "safety": "medium"
+          },
+          "requires": [
+            "single_jump",
+            "precision_timing"
+          ]
+        },
+        {
+          "type": "branch",
+          "target_layer": "IntGrid_layer",
+          "parameters": {
+            "paths": 2,
+            "length_tiles": 40,
+            "start_x_policy": "sequential",
+            "base_y": 0
+          },
+          "intent": {
+            "challenge": "complex_hazard_navigation",
+            "flow": "variable",
+            "risk_reward": "high"
+          },
+          "requires": [],
+          "paths": [
+            {
+              "path_name": "Path A (High Skill, High Reward)",
+              "difficulty": "hard",
+              "features": [
+                "very_narrow_platforms",
+                "larger_demanding_gaps",
+                "precise_running_jumps",
+                "consecutive_jumps",
+                "significantly_elevated_section",
+                "quicker_route_to_exit"
+              ],
+              "requires": [
+                "single_jump",
+                "running_jump",
+                "consecutive_jumps",
+                "precision_timing"
+              ],
+              "reward": [
+                "mastery_of_mechanics",
+                "quicker_level_completion"
+              ]
+            },
+            {
+              "path_name": "Path B (Observation & Patience - Assist)",
+              "difficulty": "medium",
+              "features": [
+                "longer_path",
+                "smaller_numerous_gaps",
+                "hidden_lower_path",
+                "precise_drop_mechanic",
+                "wider_block_platforms",
+                "forgiving_gaps",
+                "exploration_opportunity"
+              ],
+              "requires": [
+                "single_jump"
+              ],
+              "reward": [
+                "safer_controlled_progression",
+                "exploration"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "gap_sequence",
+          "target_layer": "IntGrid_layer",
+          "parameters": {
+            "count": 7,
+            "gap": [
+              1,
+              2
+            ],
+            "height_variation": [
+              0,
+              0
+            ],
+            "feature_type": "checkerboard_gaps",
+            "length_tiles": 20,
+            "start_x_policy": "sequential",
+            "base_y": 0
+          },
+          "intent": {
+            "challenge": "precision_timing",
+            "flow": "rhythmic",
+            "safety": "medium"
+          },
+          "requires": [
+            "single_jump"
+          ]
+        },
+        {
+          "type": "platform_sequence",
+          "target_layer": "IntGrid_layer",
+          "parameters": {
+            "count": 5,
+            "gap": [
+              2,
+              3
+            ],
+            "height_variation": [
+              2,
+              4
+            ],
+            "height_progression": "ascending",
+            "platform_width": [
+              1,
+              2
+            ],
+            "length_tiles": 9,
+            "start_x_policy": "sequential",
+            "base_y": 0
+          },
+          "intent": {
+            "challenge": "precision_timing",
+            "flow": "variable",
+            "safety": "medium"
+          },
+          "requires": [
+            "single_jump",
+            "consecutive_jumps",
+            "precision_timing"
+          ]
+        },
+        {
+          "type": "end_zone",
+          "target_layer": "IntGrid_layer",
+          "parameters": {
+            "width": 5,
+            "length_tiles": 5,
+            "start_x_policy": "sequential",
+            "base_y": 0
+          },
+          "intent": {
+            "safety": "high"
+          },
+          "requires": []
+        }
+      ]
+    }
+  ]
+}
+
+context
+{
+  "globals": {
+    "grid_size": 8,
+    "rng_seed": 12345,
+    "player_constraints": {
+      "max_jump_distance_tiles": 5,
+      "max_jump_height_tiles": 4,
+      "double_jump": true
+    },
+    "tile_value_map": {
+      "empty": 0,
+      "solid": 1,
+      "hazard": 2
+    },
+    "entity_types": {
+      "player_spawn": "PlayerSpawn",
+      "goal": "Goal",
+      "enemy_patrol": "EnemyPatrol",
+      "coin": "Coin",
+      "powerup": "Powerup",
+      "hazard_spike": "HazardSpike"
+    }
+  },

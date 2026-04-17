@@ -1,0 +1,14 @@
+Level 5: The Descent
+
+Mechanics Introduced: Extremely simple, guided vertical descent (falling).
+Design Elements:
+Initial Gentle Vertical Drop: A very wide, open, and extremely shallow vertical shaft.
+Choice of Descent Path (Uninterrupted vs. Controlled Steps):
+Path A (Direct, Uninterrupted Fall): A wide, clear, open shaft for a free fall.
+Reward: Successfully reaching the bottom via this path grants a "Featherfall Charm" (a temporary effect that very subtly reduces player gravity during descents for the next 10 seconds, allowing for slightly longer mid-air adjustments).
+Path B (Tiered Platform Descent): A parallel shaft with extremely large, horizontally offset platforms. Players perform tiny directional inputs to "step" down.
+Reward: Each platform on this path has a small "Landing Cushion" effect upon touch (a temporary, subtle visual/audio cue and a minor bounce mitigation effect), providing constant, reinforcing feedback and reducing any slight impact feeling.
+Challenges:
+Minimal directional control during a fall. Choosing between a fast, uncontrolled descent for a temporary gravity buff or a slower, controlled descent with constant impact mitigation feedback.
+Player Learning:
+Comfort with falling and passive control in vertical space. Understanding different approaches to vertical navigation and valuing either temporary control enhancement or constant reassurance.

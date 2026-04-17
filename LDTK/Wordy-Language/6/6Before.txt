@@ -1,0 +1,14 @@
+Level 3: Moving Foundations
+
+Mechanics Introduced: Extremely slow, predictable horizontal moving platforms.
+Design Elements:
+Introduction to Barely Moving Platforms: A single, very wide platform, moving at an almost imperceptible speed over an extremely short horizontal distance.
+Choice of Crossing a Gap (New Mechanic vs. Manual Movement):
+Path A (Moving Platform Crossing): Players jump onto and off the barely moving platform.
+Reward: Successfully using the moving platform grants a "Temporal Alignment" buff (a temporary, very subtle effect that slows down the movement speed of all subsequent moving platforms in this level by an additional 5% for 15 seconds, making them even easier to time for a short period).
+Path B (Manual Ground Navigation): A slightly longer, winding ground-level path bypassing the moving platform, involving a very simple, wide, knee-high obstacle.
+Reward: This path includes a "Guiding Light" which illuminates the path ahead with a soft, glowing trail for the next 5 seconds, making the route extremely clear.
+Challenges:
+Observing an extremely slow pattern. Basic timing for jumping onto a barely moving surface. Choosing between using the new mechanic for a temporary ease-of-use buff or bypassing it for clear directional guidance.
+Player Learning:
+Adapting to a very minimally dynamic platform. Understanding that new mechanics can sometimes offer subtle, temporary gameplay advantages, while alternatives offer immediate navigational assistance.

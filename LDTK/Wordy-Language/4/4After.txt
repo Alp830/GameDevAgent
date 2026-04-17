@@ -1,0 +1,28 @@
+{
+  "level": 1,
+  "difficulty": 2,
+  "sections": [
+    {
+      "type": "branch",
+      "paths": [
+        {
+          "difficulty": "easy",
+          "features": [
+            "flat_ground",
+            "single_jump_platform"
+          ],
+          "reward": []
+        },
+        {
+          "difficulty": "easy",
+          "features": [
+            "elevated_path",
+            "small_obstacle",
+            "optional_jump"
+          ],
+          "reward": ["discovery_spark"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Level 2: The Double Trouble
+
+High-Level Mechanic: Introduction to the double jump.
+Detailed Mechanics Introduced: Double jump.
+Design Elements:
+Introduction to Double Jump: An isolated section immediately after the start of the level that requires a double jump to progress. This acts as a tutorial. A visual cue or prompt could guide the player.
+Higher Platforms: Platforms that are unreachable with a single jump, necessitating the use of a double jump.
+Wider Gaps: Gaps that are too wide for a single jump but perfectly navigable with a double jump.
+Vertical Sections: Short vertical shafts or multi-tiered platform sequences that can only be ascended via double jumps.
+Optional Collectible Branch (Medium Skill/Medium Reward): A path leading upwards via a series of precise double jumps to a small alcove with a valuable star-gem collectible (worth multiple standard coins), before rejoining the main path. This rewards skilled application of the double jump.
+Safe Landing Zones: Generous landing areas after double jump challenges to reduce frustration.
+Standard Collectibles: Some standard coins placed along the main, easier path.
+Challenges:
+Learning the timing and execution of the double jump.
+Combining a single jump with a double jump for maximum height/distance.
+Player Learning:
+Mastery of the double jump mechanic.
+Recognizing opportunities to use the double jump and understanding risk/reward for optional challenges.
+Difficulty Score (Estimated): 4.5

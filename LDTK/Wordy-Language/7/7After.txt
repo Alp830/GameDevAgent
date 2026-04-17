@@ -1,0 +1,28 @@
+{
+  "level": 4,
+  "difficulty": 5,
+  "sections": [
+    {
+      "type": "branch",
+      "paths": [
+        {
+          "difficulty": "easy",
+          "features": [
+            "static_platforms",
+            "generous_jump_distances"
+          ],
+          "reward": []
+        },
+        {
+          "difficulty": "medium",
+          "features": [
+            "slightly_smaller_platforms",
+            "tight_jump_distances",
+            "elevated_path"
+          ],
+          "reward": ["focus_potion"]
+        }
+      ]
+    }
+  ]
+}

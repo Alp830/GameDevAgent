@@ -1,0 +1,28 @@
+{
+  "level": 5,
+  "difficulty": 4,
+  "sections": [
+    {
+      "type": "branch",
+      "paths": [
+        {
+          "difficulty": "easy",
+          "features": [
+            "wide_vertical_shaft",
+            "uninterrupted_fall"
+          ],
+          "reward": ["featherfall_charm"]
+        },
+        {
+          "difficulty": "medium",
+          "features": [
+            "tiered_platform_descent",
+            "directional_control",
+            "stepping_down"
+          ],
+          "reward": ["landing_cushion"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+  "levels": [
+    {
+      "level": 1,
+      "difficulty": 2.0,
+      "sections": [
+        {
+          "type": "start_zone",
+          "target_layer": "IntGrid_layer",
+          "parameters": {
+            "width": 10,
+            "length_tiles": 10,
+            "start_x_policy": "start_of_level",
+            "base_y": 0
+          },
+          "intent": {
+            "safety": "high",
+            "flow": "smooth"
+          },
+          "requires": []
+        },
+        {
+          "type": "platform_sequence",
+          "target_layer": "IntGrid_layer",
+          "parameters": {
+            "count": 1,
+            "gap": [
+              1,
+              1
+            ],
+            "height_variation": [
+              1,
+              1
+            ],
+            "length_tiles": 3,
+            "start_x_policy": "sequential",
+            "base_y": 0
+          },
+          "intent": {
+            "challenge": "basic",
+            "flow": "smooth",
+            "safety": "high"
+          },
+          "requires": [
+            "single_jump"
+          ]
+        },
+        {
+          "type": "gap_sequence",
+          "target_layer": "IntGrid_layer",
+          "parameters": {
+            "count": 1,
+            "gap": [
+              2,
+              3
+            ],
+            "height_variation": [
+              0,
+              0
+            ],
+            "landing_platform_width": [
+              4,
+              5
+            ],
+            "length_tiles": 8,
+            "start_x_policy": "sequential",
+            "base_y": 0
+          },
+          "intent": {
+            "challenge": "basic",
+            "flow": "smooth",
+            "safety": "high"
+          },
+          "requires": [
+            "single_jump"
+          ]
+        },
+        {
+          "type": "platform_sequence",
+          "target_layer": "IntGrid_layer",
+          "parameters": {
+            "count": 1,
+            "gap": [
+              1,
+              1
+            ],
+            "height_variation": [
+              2,
+              2
+            ],
+            "length_tiles": 5,
+            "start_x_policy": "sequential",
+            "base_y": 0
+          },
+          "intent": {
+            "challenge": "basic",
+            "flow": "smooth",
+            "safety": "high"
+          },
+          "requires": [
+            "single_jump"
+          ]
+        },
+        {
+          "type": "end_zone",
+          "target_layer": "IntGrid_layer",
+          "parameters": {
+            "width": 5,
+            "length_tiles": 5,
+            "start_x_policy": "sequential",
+            "base_y": 0
+          },
+          "intent": {
+            "safety": "high"
+          },
+          "requires": []
+        }
+      ]
+    },
+
+
+
+
+context
+{
+  "globals": {
+    "grid_size": 8,
+    "rng_seed": 12345,
+    "player_constraints": {
+      "max_jump_distance_tiles": 5,
+      "max_jump_height_tiles": 4,
+      "double_jump": true
+    },
+    "tile_value_map": {
+      "empty": 0,
+      "solid": 1,
+      "hazard": 2
+    },
+    "entity_types": {
+      "player_spawn": "PlayerSpawn",
+      "goal": "Goal",
+      "enemy_patrol": "EnemyPatrol",
+      "coin": "Coin",
+      "powerup": "Powerup",
+      "hazard_spike": "HazardSpike"
+    }
+  },

@@ -1,0 +1,14 @@
+Level 6: Reflexive Rhythms
+
+Mechanics Utilized: Single jump, double jump, barely faster moving platforms (extremely simple sequence).
+Design Elements:
+Introduction to Barely Faster Moving Platforms: Reintroduces horizontal moving platforms, only fractionally faster than Level 3.
+Choice of Combined Sequence (Direct vs. Elevated Timing):
+Path A (Ground-Level Combo): A single, very short combined sequence: single jump onto barely faster moving platform, then double jump off to a stationary one at ground level.
+Reward: Standard progression, no extra reward.
+Path B (Elevated Timing Challenge): A parallel, slightly elevated path requires the same single jump onto a barely faster moving platform, but then a slightly more precise double jump timed to land on a smaller, elevated platform that is also barely moving vertically.
+Reward: Successfully navigating this path yields a "Temporal Echo" (a temporary effect that visually highlights the exact trajectory of the player's last jump for the next 5 seconds, aiding in analyzing previous jump attempts for improved timing).
+Challenges:
+A tiny bit quicker timing for moving platforms. Executing one very basic, combined sequence. Choosing between a direct path and one with a subtle new timing element for a visual feedback tool.
+Player Learning:
+Improving reaction speed in one extremely simple combined scenario. Understanding subtle variations in combined challenges, and how they can lead to temporary analytical tools.

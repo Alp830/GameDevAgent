@@ -1,0 +1,14 @@
+Level 2: Ascending Heights
+
+Mechanics Introduced: Double jump (introductory execution).
+Design Elements:
+Dedicated Double Jump Training Area: Isolated, safe room with instruction; requires one minimal double jump to exit.
+Crucial Choice of Ascent (Direct Challenge vs. Extended Safety):
+Path A (Direct Double Jump Challenge): Two consecutive double jumps over wide gaps. Shorter, skill-focused.
+Reward: Completing this path permanently unlocks a "Double Jump Audio Cue" (a subtle, satisfying "whoosh" sound effect that plays with every double jump from now on, enhancing the feel of the mechanic for the rest of the game session).
+Path B (Longer, Single Jump Ramp Path): A much longer, winding pathway using only single jumps/walking. Slower, safer.
+Reward: This path provides a temporary "Safety Aura" upon entry, which makes the player completely immune to any minor environmental bumps or small knockbacks that might occur (though none are present in this level, it's a reassuring visual effect for the player) for 10 seconds.
+Challenges:
+Executing one basic double jump. Choosing between consistent double jumps for a permanent gameplay enhancement or a longer, safer single-jump route for temporary reassurance.
+Player Learning:
+Consistent double jump execution. Experiencing a clear choice between a quicker, new-skill-focused path for a lasting gameplay reward and a longer, familiar-skill-focused path with immediate, but temporary, safety assistance.

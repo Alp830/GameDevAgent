@@ -1,0 +1,17 @@
+Level 1: The First Leap
+
+High-Level Mechanic: Basic movement and single jump.
+Detailed Mechanics Introduced: Basic horizontal movement (left/right), single jump, safe landing.
+Design Elements:
+Starting Area: A flat, safe area for the player to get a feel for movement without immediate threats.
+Simple Platforms: A series of stationary, evenly spaced platforms requiring basic single jumps to traverse. The gaps will be small and forgiving.
+Varying Heights: Platforms will introduce slight variations in height to teach players about different jump arcs.
+Optional Collectible Detour (Low Skill/Low Reward): A slightly higher, short platform path off the main route leading to a single standard coin, requiring a slightly more precise single jump. This teaches players that exploring can yield minor rewards.
+Objective: Reach the end of the level, possibly marked by a simple goal post or exit.
+Challenges:
+Getting the timing right for consecutive jumps.
+Accurately landing on small platforms.
+Player Learning:
+Confidence in basic controls.
+Understanding jump distance and height.
+Difficulty Score (Estimated): 2.0

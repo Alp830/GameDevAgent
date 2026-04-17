@@ -1,0 +1,37 @@
+{
+  "level": 7,
+  "difficulty": 6,
+  "sections": [
+    {
+      "type": "branch",
+      "paths": [
+        {
+          "difficulty": "medium",
+          "features": [
+            "continuous_movement_sequence",
+            "slightly_less_wide_platforms",
+            "barely_faster_moving_platforms",
+            "vertical_ascent",
+            "double_jump_required"
+          ],
+          "reward": ["flow_state_activation", "full_health_refill"]
+        },
+        {
+          "difficulty": "easy",
+          "features": [
+            "wide_vertical_maze",
+            "pushable_block_interaction",
+            "simple_platforming",
+            "gentle_ramps"
+          ],
+          "reward": [
+            "safe_passage_markers",
+            "extra_checkpoints",
+            "bonus_coins",
+            "slow_motion_bubble"
+          ]
+        }
+      ]
+    }
+  ]
+}

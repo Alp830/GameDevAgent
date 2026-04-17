@@ -1,0 +1,27 @@
+{
+  "level": 2,
+  "difficulty": 3,
+  "sections": [
+    {
+      "type": "branch",
+      "paths": [
+        {
+          "difficulty": "medium",
+          "features": [
+            "double_jump_required",
+            "consecutive_gaps"
+          ],
+          "reward": ["double_jump_audio_cue"]
+        },
+        {
+          "difficulty": "easy",
+          "features": [
+            "long_ramp",
+            "single_jump_only"
+          ],
+          "reward": ["safety_aura"]
+        }
+      ]
+    }
+  ]
+}
